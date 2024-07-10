@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir streamlit youtube_transcript_api
 EXPOSE 8501
 
 # Run app.py when the container launches
-CMD ["streamlit", "run", "get_transcript.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "get_transcript.py", "--server.port=8501"]
